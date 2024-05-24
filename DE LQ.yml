@@ -1,0 +1,33 @@
+{
+  "name": "DE LQ",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "PsO",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(PsO)$"
+      }
+    },
+    {
+      "name": "Cancer58",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(Cancer58)$"
+      }
+    },
+    {
+      "name": "Tylor.D",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(Tylor)"
+      }
+    }
+  ]
+}
