@@ -4,15 +4,42 @@
       "default": 25000
   },
   "name": "German.DL-fallback",
-  "includeCustomFormatWhenRenaming": true,
+  "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "German DL",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "NOT Original Language",
+      "implementation": "LanguageSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": -2
+      }
+    },
+    {
+      "name": "German",
+      "implementation": "LanguageSpecification",
       "negate": false,
       "required": true,
       "fields": {
-        "value": "(?i)german\\s*\\.?dl|(?<=\\bGerman\\b.*)(?<!\\bWEB[-_. ])\\bDL\\b|\\[DE\\+[a-z]{2}\\]|\\[[a-z]{2}\\+DE\\]|ger,\\s*[a-z]{3}\\]|\\[[a-z]{3}\\s*,\\s*ger\\]"
+        "value": 4
+      }
+    },
+    {
+      "name": "DL",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?<!WEB[-_. ]?)\\b(DL)\\b"
+      }
+    },
+    {
+      "name": "ML",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(ML)\\b"
       }
     }
   ]
