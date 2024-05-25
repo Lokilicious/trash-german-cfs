@@ -1,6 +1,10 @@
 {
-  "name": "German DL",
-  "includeCustomFormatWhenRenaming": true,
+  "trash_id": "fa0d5636c701eb0bf09c57ffe605f097",
+  "trash_scores": {
+      "default": 25000
+  },
+  "name": "German.DL",
+  "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
       "name": "NOT German DL",

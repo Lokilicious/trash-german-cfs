@@ -1,5 +1,9 @@
 {
-  "name": "German DL ",
+  "trash_id": "fefceca66bd13bf34a139477df317593",
+  "trash_scores": {
+      "default": 25000
+  },
+  "name": "German.DL-fallback",
   "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
