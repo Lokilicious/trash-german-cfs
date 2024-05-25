@@ -1,14 +1,18 @@
 {
-  "name": "DE Tier 03",
+  "trash_id": "a520bf3906268e725680d2eca1451a6d",
+  "trash_scores": {
+      "default": 1650
+  },
+  "name": "German Tier 02",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "WOTT",
+      "name": "VECTOR",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "(WOTT)$"
+        "value": "(VECTOR)$"
       }
     }
   ]

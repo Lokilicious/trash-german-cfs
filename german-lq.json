@@ -1,5 +1,9 @@
 {
-  "name": "DE LQ",
+  "trash_id": "263943bc5d99550c68aad0c4278ba1c7",
+  "trash_scores": {
+      "default": -50000
+  },
+  "name": "German LQ",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {

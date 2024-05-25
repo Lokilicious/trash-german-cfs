@@ -1,4 +1,8 @@
 {
+  "trash_id": "86bc3115eb4e9873ac96904a4a68e19e",
+  "trash_scores": {
+      "default": 15000
+  },
   "name": "German",
   "includeCustomFormatWhenRenaming": true,
   "specifications": [
@@ -21,12 +25,12 @@
       }
     },
     {
-      "name": "NOT English",
+      "name": "NOT Original",
       "implementation": "LanguageSpecification",
       "negate": true,
       "required": true,
       "fields": {
-        "value": 1
+        "value": -2
       }
     }
   ]
