@@ -16,6 +16,15 @@
       }
     },
     {
+      "name": "TVARCHiV",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(TVARCHiV)$"
+      }
+    },
+    {
       "name": "Cancer58",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
